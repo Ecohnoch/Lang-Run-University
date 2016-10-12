@@ -1,0 +1,383 @@
+{
+	"schoolGate" :{
+		"1" : "register",
+		"2" : "",
+		"3" : "schoolGateFar", 
+		"4" : "校门",
+		"5" : "n24",
+		"6" : "哎，宇文朔，你怎么这么晚才来啊？"
+	},
+
+	"register" :{
+		"1" : "houseLane",
+		"2" : "bulletin_fig",
+		"3" : "schoolGate",
+		"4" : "教务楼",
+		"5" : "n38",
+		"6" : "快乐的新生假期，永别了~"
+	},
+
+	"bulletin_fig" :{
+		"1" : "register",
+		"2" : "phyBuilding",
+		"3" : "dormBuilding",
+		"4" : "教学楼侧",
+		"5" : "n77",
+		"6" : "嗯，学生自主研究项目，Student Advanced Research"
+	},
+
+	"dormBuilding" :{
+		"1" : "bulletin_fig",
+		"2" : "402doorb",
+		"3" : "",
+		"4" : "宿舍楼",
+		"5" : "n25",
+		"6" : "你看，只能被分到阁楼上了吧？"
+	},
+	"402doorb" :{
+		"1" : "dormBuilding",
+		"2" : "",
+		"3" : "dorm1",
+		"4" : "401房间",
+		"5" : "n49",
+		"6" : "怎么了？"
+	}, 
+
+	"dorm1" :{
+		"1" : "402doorb",
+		"2" : "",
+		"3" : "",
+		"4" : "房间内",
+		"5" : "n81",
+		"6" : "嘿嘿~充满特别的回忆的新生学年啊~"
+
+	},
+
+	"phyBuilding" :{
+		"1" : "bulletin_fig",
+		"2" : "phyCorridorA1_cloudy",
+		"3" : "phyCorridorA2",
+		"4" : "物理系楼",
+		"5" : "m945",
+		"6" : "迟到十分钟，下次注意！"
+	},
+
+	"phyCorridorA1_cloudy" :{
+		"1" : "phyBuilding",
+		"2" : "lab",
+		"3" : "phyCorrider_cloudy",
+		"4" : "物理系过道A1",
+		"5" : "m204",
+		"6" : "看路~"
+	},
+
+	"lab" :{
+		"1" : "phyCorridorA1_cloudy",
+		"2" : "",
+		"3" : "",
+		"4" : "实验室",
+		"5" : "m187",
+		"6" : "去二楼，把工作站搬过来。"
+	},
+
+	"phyCorridorA2" :{
+		"1" : "phyBuilding",
+		"2" : "libraryReception",
+		"3" : "SARHall",
+		"4" : "物理系过道A2",
+		"5" : "m196",
+		"6" : "我进去签个字，你在这等我一会。"
+	},
+
+	"libraryReception" :{
+		"1" : "phyCorridorA2",
+		"2" : "",
+		"3" : "libraryIn",
+		"4" : "图书馆前",
+		"5" : "m38",
+		"6" : "每小时两元，刷学生证就可以。"
+	},
+
+	"libraryIn" :{
+		"1" : "libraryReception",
+		"2" : "",
+		"3" : "",
+		"4" : "图书馆内",
+		"5" : "m1107",
+		"6" : "宇文朔……如果爱因斯坦真的错了，那么你会相信哪个故事？"
+	},
+
+	"phyCorrider_cloudy": {
+		"1" : "phyCorridorA1_cloudy",
+		"2" : "",
+		"3" : "",
+		"4" : "物理系外过道",
+		"5" : "m853",
+		"6" : "看来是个好天气呢！"
+	},
+
+	"SARHall" : {
+		"1" : "phyCorridorA2",
+		"2" : "",
+		"3" : "",
+		"4" : "SAR大厅",
+		"5" : "m452",
+		"6" : "你说什么呢，我一点也不紧张……"
+	},
+
+	"houseLane" :{
+		"1" : "register",
+		"2" : "FendiCafe",
+		"3" : "houseGate",
+		"4" : "拐角",
+		"5" : "n982",
+		"6" : "对了！你说过要请客吧？我发现一家很好吃的茶餐厅！"
+	},
+
+	"FendiCafe" :{
+		"1" : "houseLane",
+		"2" : "",
+		"3" : "cafeIn",
+		"4" : "咖啡馆",
+		"5" : "n1008",
+		"6" : "到了，就这。"
+	},
+
+	"cafeIn" : {
+		"1" : "FendiCafe",
+		"2" : "",
+		"3" : "",
+		"4" : "咖啡馆内",
+		"5" : "n243",
+		"6" : "我想吃炭烤天陀岛大龙虾、清蒸苏眉鱼、法式西冷牛排、普罗旺斯松露配香煎鹅肝……"
+	},
+
+	"houseGate" : {
+		"1" : "houseLane",
+		"2" : "",
+		"3" : "mingmeiLivingRoom",
+		"4" : "明美家前",
+		"5" : "m966",
+		"6" : "回家。"
+	},
+
+	"mingmeiLivingRoom" :{
+		"1" : "houseGate",
+		"2" : "",
+		"3" : "mingmeiRoom",
+		"4" : "明美家客厅",
+		"5" : "m608",
+		"6" : "我说……"
+	},
+
+	"mingmeiRoom" :{
+		"1" : "mingmeiLivingRoom",
+		"2" : "",
+		"3" : "",
+		"4" : "明美房间",
+		"5" : "m624",
+		"6" : "宇文朔？"
+ 	},
+
+	"schoolGateFar" : {
+		"1": "schoolGate",
+		"2": "",
+		"3": "shoppingStreet",
+		"4": "校门远处",
+		"5": "n735",
+		"6": "宇文助手，你来选择一个方向吧。"
+	},
+
+	"shoppingStreet" : {
+		"1" : "schoolGateFar",
+		"2" : "",
+		"3" : "tunnelEntry_cloudy",
+		"4" : "商业街",
+		"5" : "n1040",
+		"6" : "还有清蒸苏眉鱼、法式西冷牛排……"
+	},
+
+	"tunnelEntry_cloudy" :{
+		"1" : "shoppingStreet",
+		"2" : "",
+		"3" : "tunnelIn",
+		"4" : "隧道",
+		"5" : "n888",
+		"6" : "喂！等一等——"
+	},
+
+	"tunnelIn":{
+		"1" : "tunnelEntry_cloudy",
+		"2" : "",
+		"3" : "beachRoad",
+		"4" : "隧道内",
+		"5" : "n663",
+		"6" : "（学女鬼）救命啊……"
+	},
+
+	"beachRoad" :{
+		"1" : "tunnelIn",
+		"2" : "ferry1",
+		"3" : "observatory",
+		"4" : "海路",
+		"5" : "n875",
+		"6" : "天气预报说了，这几天都是大~晴天！"
+	},
+
+	"ferry1" :{
+		"1" : "beachRoad",
+		"2" : "seaSky",
+		"3" : "emptyShot_ferry",
+		"4" : "港口",
+		"5" : "n625",
+		"6" : "天陀岛——我市十大旅游景点之首。"
+	},
+
+	"seaSky" : {
+		"1" : "emptyShot_ferry",
+		"2" : "",
+		"3" : "",
+		"4" : "海景",
+		"5" : "n652",
+		"6" : "赐予我力量吧！我是南佐罗！"
+	},
+
+
+	"emptyShot_ferry" :{
+		"1" : "ferry1",
+		"2" : "",
+		"3" : "island_far",
+		"4" : "船上",
+		"5" : "n626",
+		"6" : "也是朗润大学的学生不得不去的101个地方之一。"
+	},
+
+	"island_far" :{
+		"1" : "emptyShot_ferry",
+		"2" : "",
+		"3" : "camp1",
+		"4" : "天驼岛",
+		"5" : "n629",
+		"6" : "您能在此体验到淳朴而休闲的舒适生活……"
+	},
+
+	"camp1" :{
+		"1" : "island_far",
+		"2" : "mountainTrail2",
+		"3" : "nightMarket",
+		"4" : "野营地",
+		"5" : "n682",
+		"6" : "这个时刻终于还是到来了么……"
+	},
+
+	"nightMarket" :{
+		"1" : "camp1",
+		"2" : "",
+		"3" : "",
+		"4" : "夜市",
+		"5" : "x429",
+		"6" : "祈愿天灯飞得越高，愿望就越容易实现。"
+	},
+
+	"mountainTrail2" :{
+		"1" : "camp1",
+		"2" : "3yearSlope",
+		"3" : "stellarOb_ev",
+		"4" : "山路",
+		"5" : "n721",
+		"6" : "我们的友情，已经随孔明灯而去了！"
+	},
+
+	"3yearSlope" :{
+		"1" : "mountainTrail2",
+		"2" : "",
+		"3" : "",
+		"4" : "三年坡",
+		"5" : "m684",
+		"6" : "三年坡！"
+	}, 
+
+	"stellarOb_ev" :{
+		"1" : "mountainTrail2",
+		"2" : "",
+		"3" : "",
+		"4" : "七星台",
+		"5" : "x540",
+		"6" : "是三辰浑天仪，可以测量天体在天球上的位置。"
+	},
+
+	"observatory":{
+		"1" : "emptyShot_ferry",
+		"2" : "",
+		"3" : "observatoryGate",
+		"4" : "天文台",
+		"5" : "x278",
+		"6" : "啊、早上好~"
+	},
+
+
+
+	"observatoryGate" :{
+		"1" : "observatory",
+		"2" : "observatoryIn",
+		"3" : "observatoryPlatform_cloudy",
+		"4" : "天文台下",
+		"5" : "x340",
+		"6" : "那个诺言，我一直都记得。"
+	},
+
+	"observatoryPlatform_cloudy" :{
+		"1" : "observatoryGate",
+		"2" : "",
+		"3" : "",
+		"4" : "天文台阳台",
+		"5" : "x339",
+		"6" : "为什么人长大了，梦想就小了？"
+	},
+
+	"observatoryIn" :{
+		"1" : "observatoryGate",
+		"2" : "",
+		"3" : "galaxyStation",
+		"4" : "天文台内",
+		"5" : "x287",
+		"6" : "银河系……一个直径十万光年的美丽圆盘。"
+	},
+
+	"galaxyStation" :{
+		"1" : "observatoryIn",
+		"2" : "",
+		"3" : "Scorpio",
+		"4" : "银河车站",
+		"5" : "x310",
+		"6" : "火车抵达南十字星站。"
+	},
+
+	"Scorpio" :{
+		"1" : "galaxyStation",
+		"2" : "",
+		"3" : "KanjiRailway",
+		"4" : "银河铁道",
+		"5" : "x313",
+		"6" : "在巨大的十字架前，下车的人们排成一列，虔诚地祈祷着。"
+	},
+
+	"KanjiRailway" :{
+		"1" : "Scorpio",
+		"2" : "",
+		"3" : "dorm1",
+		"4" : "梦中荒野",
+		"5" : "x318",
+		"6" : "“永远在一起，为世间人找到真正的幸福。”"
+
+	}
+
+
+
+
+	
+
+	
+
+
+}
